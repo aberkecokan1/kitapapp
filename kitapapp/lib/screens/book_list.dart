@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:hive/hive.dart';
-import 'package:kitapapp/components/dialog.dart';
 import 'package:kitapapp/db/favori_books.dart';
 import 'package:kitapapp/main.dart';
 import 'package:kitapapp/models/actions.dart';
@@ -131,7 +129,7 @@ class _BookListState extends State<BookList> {
             ),
             IconButton(
               onPressed: () {
-                showDialog(
+                showDialog<void>(
                   context: context,
                   builder: (context) {
                     return app_dialog.TimePickerDialog(
