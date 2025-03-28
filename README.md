@@ -11,22 +11,6 @@ Stephen King App, kullanıcıların kitaplarını listeleyebileceği, detayları
 - 🌙 Karanlık/Aydınlık tema desteği
 - 🌐 Çoklu dil desteği (İngilizce/Türkçe)
 
-## Kurulum
-
-1. Flutter SDK'yı yükleyin: [Flutter Kurulum Kılavuzu](https://docs.flutter.dev/get-started/install)
-2. Projeyi klonlayın:
-   
-   git clone https://github.com/yourusername/kitapapp.git
-   
-3. Bağımlılıkları yükleyin:
-   
-   cd kitapapp
-   flutter pub get
-   
-4. Uygulamayı çalıştırın:
-   
-   flutter run
-   
 
 ## Proje Yapısı
 
